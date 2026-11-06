@@ -320,7 +320,7 @@ class MainActivity : Activity() {
                     FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
                 )
                 swipe.visibility = View.INVISIBLE
-                setImmersive(true)
+                setFullscreenMode(true)
             }
 
             override fun onHideCustomView() {
@@ -336,11 +336,11 @@ class MainActivity : Activity() {
         customCallback?.onCustomViewHidden()
         customCallback = null
         swipe.visibility = View.VISIBLE
-        setImmersive(false)
+        setFullscreenMode(false)
     }
 
     @Suppress("DEPRECATION")
-    private fun setImmersive(on: Boolean) {
+    private fun setFullscreenMode(on: Boolean) {
         if (on) {
             window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN or
                 View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
