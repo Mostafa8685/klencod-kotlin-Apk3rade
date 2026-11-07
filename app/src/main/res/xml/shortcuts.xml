@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="home"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_home"
+        android:shortcutShortLabel="@string/sc_home"
+        android:shortcutLongLabel="@string/sc_home_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://apk3rade.mangoad.online/index.php"
+            android:targetClass="com.apk3rde.app.MainActivity"
+            android:targetPackage="com.apk3rde.app" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="messages"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_chat"
+        android:shortcutShortLabel="@string/sc_messages"
+        android:shortcutLongLabel="@string/sc_messages_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://apk3rade.mangoad.online/messages.php"
+            android:targetClass="com.apk3rde.app.MainActivity"
+            android:targetPackage="com.apk3rde.app" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_person"
+        android:shortcutShortLabel="@string/sc_profile"
+        android:shortcutLongLabel="@string/sc_profile_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://apk3rade.mangoad.online/profile.php"
+            android:targetClass="com.apk3rde.app.MainActivity"
+            android:targetPackage="com.apk3rde.app" />
+    </shortcut>
+
+</shortcuts>

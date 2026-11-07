@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Apk3rade</string>
+    <string name="sc_home">الرئيسية</string>
+    <string name="sc_home_long">المتجر الرئيسي</string>
+    <string name="sc_messages">الرسائل</string>
+    <string name="sc_messages_long">الرسائل والمحادثات</string>
+    <string name="sc_profile">حسابي</string>
+    <string name="sc_profile_long">ملفي الشخصي</string>
 </resources>
